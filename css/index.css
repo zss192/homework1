@@ -243,6 +243,26 @@ a{
     font-size: 14px;
 }
 
+/* Advice Start */
+.advice{
+    width: 20px;
+    height: 100px;
+    background: url(../images/zixun.png) no-repeat top;
+    background-size: 35px 26px;
+    background-position-y: 10px;
+    background-color: rgb(0,194,240);
+    position: fixed;
+    right: 20px;
+    top: 60vh;
+    color: #fff;
+    font-weight: 100;
+    padding: 10px;
+    padding-top: 40px;
+    font-size: 16px;    
+    text-align: center;
+}
+/* Advice End */
+
 
 
 
