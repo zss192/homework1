@@ -1,3 +1,7 @@
+/********************
+*水平有限，仅供参考
+*By 107网站工作室
+********************/
 *{
     margin: 0;
     padding: 0;
@@ -12,6 +16,8 @@ a{
     text-decoration-line: none;
     color:rgb(27,189,157);
 }
+
+/* Header Start */
 .header{
     width:100%;
     height:60px; 
@@ -70,39 +76,41 @@ a{
     border-radius: 4px;
     color:#fff;
 }
+/* Header End */
 
+/* Content Start */
 .content{
     width:100%;
     height:550px;
 }
-.content .loginContent{
+.loginContent{
     width:520px;
     height:490px;
     margin:70px auto;
     border:1px solid #eee;
     overflow: hidden;
 }
-.content .loginContent .idLogin{
+.idLogin{
     width:410px;
     height:305px;
     margin:0 auto;
 }
-.content .loginContent .idLogin .loginHeader{
+.loginHeader{
     height:60px;
     margin-top: 25px;
 }
-.content .loginContent .idLogin .loginHeader h2{
+.loginHeader h2{
     text-align: center;
     font-size: 23px;
     font-weight: 400;
     margin-bottom: 8px;
 }
-.content .loginContent .idLogin .loginHeader p{
+.loginHeader p{
     float:right;
     color:grey;
     font-size: 14px;
 }
-.content .loginContent .idLogin .loginByEmail input{
+.loginByEmail input{
     width:400px;
     height:37px;
     margin-top: 28px;
@@ -110,7 +118,7 @@ a{
     background-color: rgba(248,248,248,1);
     border:1px solid #eee;
 }
-.content .loginContent .idLogin .submit{
+.idLogin .submit{
     height:41px;
     width:410px;
     margin-top: 28px;
@@ -121,14 +129,14 @@ a{
     margin-bottom: 20px;
     outline: none;
 }
-.content .loginContent .idLogin .otherContent a{
+.otherContent a{
     color:rgb(27,189,157);
     font-size: 14px;
 }
-.content .loginContent .idLogin .otherContent a:nth-child(2){
+.otherContent a:nth-child(2){
     float:right;
 }
-.content .loginContent .thirdPartLogin{
+.thirdPartLogin{
     height:140px;
     width:100%;
     margin:25px auto;
@@ -136,112 +144,114 @@ a{
     text-align: center;
     border-top: 1px solid #ddd;
 }
-.content .loginContent .thirdPartLogin p{
+.thirdPartLogin p{
     padding-top: 18px;
     color:#aaa;
     font-size: 14.5px;
 }
-.content .loginContent .thirdPartLogin .qqGithub{
+.qqGithub{
     width:170px;
     margin:15px auto;
     font-size: 14px;
     color:#aaa;
 }
-.content .loginContent .thirdPartLogin .qq{
+.qq{
     width:50px;
     height:100px;
     float:left;
 }
-.content .loginContent .thirdPartLogin .qq span{
+.qq span{
     width:50px;
 }
-.content .loginContent .thirdPartLogin .github{
+.github{
     width:50px;
     float:right;
 }
+/* Content End */
 
-
+/* Footer Start */
 .footer{
     width:100%;
     background-color: #2f2f2f;
     height:400px;
 }
-.footer .footerContent{
+.footerContent{
     width:1150px;
     height:340px;
     margin:0 auto;
     padding-top: 60px;
 }
-.footer .footerContent .footerTop{
+.footerTop{
     height:250px;
 }
-.footer .footerContent .footerLogo{
+.footerLogo{
     width:300px;
     height:250px;
     float:left; 
     margin-right: 100px;
 }
-.footer .footerContent .footerLogo p:nth-child(1) img{
+.footerLogo p:nth-child(1) img{
     width:250px;
     height:90px;
 }
-.footer .footerContent .footerLogo p:nth-child(2){
+.footerLogo p:nth-child(2){
     margin-top: 8px;
     width: 240px;
     float:right;
 }
-.footer .footerContent .footerLogo p:nth-child(2) img{
+.footerLogo p:nth{
     width:50px;
     margin-left: 25px;
 }
-.footer .footerContent .about,.service,.language{
+.about,.service,.language{
     width:245px;
     height:250px;
     float:left;
 }
-.footer .footerContent .about p,.service p,.language p{
+.asl p{
     width:100%;
     color:#fff;
     text-align:left;
     margin-bottom: 10px;
 }
-.footer .footerContent .about p span,.service p span,.language p span{
+.asl p span{
     border-bottom: 2px solid #1abc9c;
     padding: 5px 0;
 }
-.footer .footerContent .about ul,.service ul,.language ul{
+.asl ul{
     text-align: left;
     margin: 20px 0 0;
     padding: 0;
     width: 40%;
     float: left;
 }
-.footer .footerContent .about ul li,.service ul li,.language ul li{
+.asl ul li{
     line-height: 26px;
 }
-.footer .footerContent .about ul a,.service ul a,.footer .footerContent ul a{
+.asl ul a{
     color:grey;
     font-size: 14px;
 }
-.footer .footerContent .language .wxzh{
+.wxzh{
     margin-top: 98px;
     width: 128px;
 }
-.footer .footerContent .language .wxzh img{
+.wxzh img{
     width:35px;
 }
-.footer .footerContent .footerBottom{
+.footerBottom{
     width: 1170px;
     height:70px;
     margin:0 auto;
     border-top: 1px solid #3a3a3a;
     padding-top: 15px;
 }
-.footer .footerContent .footerBottom p{
+.footerBottom p{
     line-height: 30px;
     color:#555555;
     font-size: 14px;
 }
+/* Footer End */
 
 /* Advice Start */
 .advice{
