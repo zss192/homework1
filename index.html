@@ -2,8 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>107网站工作室第一次考核作业</title>
+    <title>107网站工作室第一次考核</title>
     <link rel="stylesheet" href="./css/index.css">
+    <script src="http://libs.baidu.com/jquery/2.1.4/jquery.min.js"></script>
 </head>
 <body>
     <!-- Header Start -->
@@ -145,5 +146,18 @@
     <div class="advice">
         <span>咨询 <br> • <br> 建议</span>
     </div>
+<script type="text/javascript">
+document.oncontextmenu = function(){
+    alert("想看源码，必不可能!!!")
+    event.returnValue = false;
+}
+document.onkeydown = function(){
+    if(window.event && window.event.keyCode == 123) {
+        alert("按F12也没用，自己写吧");
+        event.keyCode=0;
+        event.returnValue=false;
+    }
+}
+</script>
 </body>
 </html>
