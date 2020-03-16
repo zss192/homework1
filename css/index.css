@@ -24,7 +24,7 @@ a{
     border-bottom:0.1px solid #ddd; 
 }
 .header .headerContent{
-    width:1200px;
+    width:1145px;
     height:60px;
     margin:0 auto;
 }
@@ -176,19 +176,21 @@ a{
     height:400px;
 }
 .footerContent{
-    width:1150px;
+    width:90%;
     height:340px;
     margin:0 auto;
     padding-top: 60px;
 }
 .footerTop{
     height:250px;
+    width:1140px;
+    margin:0 auto;
 }
 .footerLogo{
     width:300px;
     height:250px;
     float:left; 
-    margin-right: 100px;
+    margin-right: 18px;
 }
 .footerLogo p:nth-child(1) img{
     width:250px;
@@ -207,9 +209,9 @@ a{
     width:245px;
     height:250px;
     float:left;
+    margin-left: 28px;
 }
 .asl p{
-    width:100%;
     color:#fff;
     text-align:left;
     margin-bottom: 10px;
@@ -240,7 +242,7 @@ a{
     width:35px;
 }
 .footerBottom{
-    width: 1170px;
+    width: 1140px;
     height:70px;
     margin:0 auto;
     border-top: 1px solid #3a3a3a;
